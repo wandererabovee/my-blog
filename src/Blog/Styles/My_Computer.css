@@ -1,0 +1,31 @@
+/* Blog/styles/Icons.css */
+.My_Computer-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 60px;
+    background-color: transparent;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-top: 40px;
+  }
+  
+  .My_Computer-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .My_Computer-wrapper img {
+    width: 100%; /* Set the width of your icons */
+    margin-bottom: 5px; /* Adjust the space between each icon and text */
+  }
+  
+  .My_Computer-wrapper span {
+    font-size: 10px; /* Set the font size of your text */
+    color: black; /* Set the color of your text */
+  }
+  

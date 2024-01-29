@@ -1,0 +1,35 @@
+/* Blog/Styles/Icons.css */
+.icons-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 60px;
+    background-color: transparent; /* Set your background color */
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Align items to the right */
+    padding-top: 40px;
+  }
+  
+  .icon-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    margin-bottom: 10px; /* Add margin to create a gap between icons */
+  }
+  
+  .icon-wrapper img {
+    width: 60px; /* Set the width of your icons */
+    height: 60px; /* Set the height of your icons */
+    margin-bottom: 5px; /* Adjust the space between each icon and text */
+  }
+  
+  .icon-wrapper span {
+    font-size: 10px; /* Set the font size of your text */
+    color: black; /* Set the color of your text */
+    font-family: 'Oswald', sans-serif; /* Use the Oswald font */
+    white-space: nowrap; /* Prevent text from wrapping */
+  }
+  

@@ -1,0 +1,15 @@
+/* Blog/components/Desktop.css */
+body {
+    overflow: hidden;
+    margin: 0;
+}
+
+.desktop-container {
+    background-color: #C2D3D3; /* Set the desired background color */
+    height: 100vh; /* Set to 100% of the viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
